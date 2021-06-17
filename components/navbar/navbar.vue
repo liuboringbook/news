@@ -13,9 +13,8 @@
 				</view>
 			</view>
 		</view>
-		<view>
-			hello
-		</view>
+		<!-- 填充物——用来填充底部的空白 -->
+				<view :style="{height: statusBarHeight+navBarHeight+'px'}"></view>
 	</view>
 </template>
 <script>
